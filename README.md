@@ -10,7 +10,9 @@ July 15, 2026
  
 Executive Summary
 Between January and December, FinCrime Operations processed 850 ServiceNow tickets spanning transaction monitoring, sanctions screening, KYC/CDD, fraud referrals, case management, access & entitlements, and regulatory reporting. The program closed 806 tickets at an average 35.4-hour turnaround, held a 66.4% SLA compliance rate, and saw 7.6% of resolved tickets reopened. As of the reporting date, 107 tickets (12.6% of total intake) remain open, of which 43 are already in SLA breach.
+
 The analysis surfaces three actionable patterns. First, SLA performance is systematically weaker for Medium- and Low-priority tickets, which absorb the largest share of breaches and the longest queue times — evidence of a triage and queue-management gap rather than a target-setting problem. Second, SLA compliance and reopen rates vary widely by team, with an 11-point compliance spread and a greater than 3x reopen-rate spread between the strongest and weakest groups, pointing to transferable best practices. Third, a small number of root causes — capacity constraints, data quality issues, and third-party delays — account for a disproportionate share of breaches, a classic Pareto pattern that should anchor the next process-improvement roadmap.
+
 This document walks through the underlying data, the methodology behind the analysis, section-by-section findings drawn directly from the live dashboard, a set of data-quality observations uncovered during the review, and a concise set of recommendations.
 
 1. Business Context & Objectives
