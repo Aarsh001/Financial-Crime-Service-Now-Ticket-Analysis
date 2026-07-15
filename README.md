@@ -35,6 +35,7 @@ All figures cited below were read directly from the live report measures and dri
 3.1  Ticket Volume & Mix
 
 Monthly intake ranged from 54 tickets (April) to 89 tickets (August). The August spike coincides with the onboarding of a new sanctions list; volume returned to the seasonal baseline the following month, suggesting the team absorbed the surge without a lasting backlog build-up.
+
  <img width="875" height="416" alt="image" src="https://github.com/user-attachments/assets/ac544bdd-5ae7-49e3-9ca4-1299eb7001e0" />
 
 Figure 1 — Monthly ticket volume (Created), with the August sanctions-list onboarding event annotated.
