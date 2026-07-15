@@ -104,11 +104,17 @@ Two limitations in the current measure logic surfaced during this review and are
 •	Root cause is retrospective only. Because it is assigned at closure, root-cause analysis by definition excludes the current 107-ticket open backlog. A lightweight “predicted root cause” tag at triage time would let the same Pareto lens apply to active work, not just historical closures.
 
 5. Recommendations
+
 •	Rebalance Medium-priority triage capacity. P3 tickets, despite generous SLA windows, produce the most breaches by a wide margin. Consider a dedicated queue or automated aging alerts for P3 tickets nearing 70–80% of their SLA window.
+
 •	Close the “at risk” visibility gap. Implement an Amber SLA state and route amber tickets into a proactive daily huddle before they breach, rather than discovering breaches after the fact.
+
 •	Codify and transfer top-team practices. Compliance Advisory and Data Quality Team combine above-average SLA compliance with the lowest reopen rates in the organization. A lightweight practice-sharing session with Access Management and MLRO Office — the two lowest-compliance teams — is a low-cost, high-leverage intervention.
+
 •	Target the top three root causes. Capacity Constraint, Data Quality Issue, and Third-Party Delay together drive roughly 45% of breaches. A focused sprint on staffing elasticity, upstream data quality, and third-party SLAs would have an outsized effect on overall compliance.
+
 •	Tune alerting to reduce false positives. With about 22% of breach-tagged closures marked “Not a True Issue” or “Duplicate/False Positive,” a scenario and threshold tuning review could shrink both ticket volume and the apparent breach rate simultaneously.
+
 •	Re-baseline the aging/backlog view. Fix the Resolved-Date filter logic described in Section 4 so leadership sees a true, reopened-inclusive view of backlog aging.
 
 6. Conclusion
